@@ -52,6 +52,5 @@ where filename.txt is the path to the input file.
 The program will output the position and velocity of each body at each time step to the console.
 
 ### License
-[MIT License](https://opensource.org/licenses/MIT)
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [License](https://opensource.org/licenses/MIT)
+ file for details.

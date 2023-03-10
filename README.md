@@ -3,7 +3,7 @@ This program simulates the motion of multiple bodies under the influence of grav
 
 ### Table of Contents
 - [Introduction](#introduction)
-- [C++ Libraries](#C++ Libraries)
+- [Libraries](#Libraries)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -32,3 +32,26 @@ The program is written in C++, and uses the following libraries:
 #include <cmath>
 #include <vector>
 ```
+
+### Installation
+To use this program, please follow these steps:
+
+Clone this repository.
+Compile the source code using a C++ compiler.
+Create a file with the format specified in the introduction.
+Run the compiled executable with the file as input.
+
+### Usage
+To use this program, run the compiled executable with the file containing the input data as a command line argument:
+
+```bash
+./nbody filename.txt
+```
+where filename.txt is the path to the input file.
+
+The program will output the position and velocity of each body at each time step to the console.
+
+### License
+[MIT License](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License. See the LICENSE file for details.

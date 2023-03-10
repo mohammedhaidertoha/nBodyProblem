@@ -73,6 +73,7 @@ public:
         fOut.open(fName_out); // open the file
         fOut << std::left << std::setprecision(5); // set the precision to 10 sf
     }
+	
     /* define a function that takes in a vector of 'BodiesStructs' objects, time step, G and final time to write the distances and velocities to a file
     inputs:
     1. bodyVector: a vector of 'BodiesStruct'

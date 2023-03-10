@@ -74,6 +74,7 @@ void findK(std::vector<BodiesStruct>& bodyVector, double dt, double G, int kFact
             if (j == i) {
                 continue;
             }
+            
             // otherwise, compute the x and y values
             else {
                 // call computeDistance() to find the difference in x and y and the distance between the two bodies
